@@ -59,7 +59,11 @@ PAPER_TRADE_EXCHANGES = [  # todo: fix after global config map refactor
     "ascend_ex_paper_trade",
     "gate_io_paper_trade",
     "mock_paper_exchange",
+    "bittrex_paper_trade",
+    "binance_us_paper_trade",
+    "kraken_paper_trade",
 ]
+
 
 CONNECTOR_SUBMODULES_THAT_ARE_NOT_CEX_TYPES = ["test_support", "utilities", "gateway"]
 
